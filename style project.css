@@ -1,0 +1,81 @@
+/* Ini Style Bagian Menu */
+nav {
+    background-color: rgba(213, 245, 74, 0.631);
+    display: flex;
+    font-size: 18px;
+    font-weight: 400;
+    color: rgb(0, 0, 0);
+    display: flex;
+    padding: 20px;
+    letter-spacing: 2px;
+    justify-content: center;
+    text-decoration: none;
+    position: sticky;
+    gap: 1em;
+}
+
+/* Ini Style Untuk Seluruh Yang Ada di h1 */
+h1{
+    background-color: rgb(248, 132, 242);
+    font-style:initial;
+}
+
+/* Ini Style Untuk Seluruh Yang Ada di Body */
+body {
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: justify;
+    line-height: 1,5;
+}
+
+
+/* Ini Style Khusus Untuk Bagian Judul */
+.judul {
+    text-align: center;
+    color: black;
+}
+
+
+/* Ini Style Khusus Untuk img (Gambar) */
+.img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* Ini Style Khusus Untuk h2 */
+h2 {
+    background: rgb(113, 234, 255);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(40,55,32,1) 100%, rgba(179,229,36,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+ 
+/* style khusus tabel*/
+table {
+    width: 80%;
+    border-collapse: collapse;
+    margin: 20px auto;
+    line-height: normal;
+    border: 1px solid black;
+}
+th, td{
+    padding: 10px;
+    text-align: left;
+    line-height: normal;
+    border: 1px solid black;
+}
+th {
+    background-color: #deeb29;
+    line-height: normal;
+    border: 1px solid black;
+}
+
+/* Ini Style Bagian Copyright */
+footer {
+    color: rgb(233, 12, 12);
+    text-align: center;
+}
+

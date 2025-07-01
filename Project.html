@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Isi Projek PDW</title>
+    <link rel="stylesheet" href="style project.css"> 
+</head>
+
+<body>
+    <h1 class="judul">Peluang Kejadian Majemuk<br></h1>
+
+    <header>
+        <nav class="nav-li">
+            <a href="#Pengantar" style="text-decoration: none;">Pengantar </a> |
+            <a href="#Tidak Saling Lepas" style="text-decoration: none;">Peluang Kejadian Tidak Saling Lepas</a> |
+            <a href="#Saling Lepas" style="text-decoration: none;">Peluang Kejadian Saling Lepas</a> | 
+            <a href="#Bersyarat" style="text-decoration: none;">Peluang Kejadian Bersyarat</a> |
+            <a href="#Rumus" style="text-decoration: none;">Rumus Peluang Kejadian Majemuk</a> |
+            <a href="#referensi" style="text-decoration: none;">referensi </a> |
+            <a href="Data Diri.html">Data Diri</a>
+        </nav>
+</header>
+
+
+<!-- Ini Sub Materi Pengantar Peluang -->
+    <article id="Pengantar">
+        <h2 class="Pengantar">Pengantar Peluang </h2>
+        <p class="pengertian">Data adalah kumpulan informasi yang diperoleh dari suatu pengamatan. Informasi ini bisa berupa angka,
+             lambang, atau keadaan objek yang sedang diamati. Misalnya, pada percobaan Biologi, kamu disuruh mengamati pertumbuhan 
+             tanaman kacang hijau. Setiap beberapa hari sekali, kamu akan mencatat panjang batang tanaman untuk diamati pertumbuhannya.
+              Dari hasil pengamatan itu, diperoleh catatan angka-angka panjang batang tanaman kacang hijau. Nah, angka-angka itulah yang 
+              kita sebut sebagai data.Dalam kehidupan sehari-hari, kita sering menggunakan kata “kemungkinan”. Misalnya dalam perlombaan 
+              yang diadakan oleh sekolahmu, kelasmu mempunyai kemungkinan menang lebih besar daripada kelas lain. Atau kamu sedang mendaftar
+               ke sebuah Universitas dengan dua pilihan yang berbeda, maka kamu memiliki kemungkinan masuk pilihan pertama lebih besar daripada
+                pilihan kedua. Lantas pertanyaannya, bagaimana kamu dapat menentukan bahwa kemungkinan kelasmu menang lebih besar dibandingkan 
+                kelas lain dan kemungkinan kamu diterima pada pilihan pertama lebih besar dibandingkan dengan piihan kedua?. Jawabannya adalah
+                 dengan menggunakan teori peluang. Peluang ibaratkan sebuah senjata yang tidak terlihat, mengarahkan kita menuju kejadian yang 
+                 tidak terduga. </p>
+        <div class="img" style="justify-content: center;">
+            <img src="peluang.png" alt="">
+        </div>       
+    <p> Pada Pembahasan kali ini, kita akan fokus pada materi "Peluang Kejadian Majemuk"<br>
+        Perlu kita ketahui  bahwa kejadian pada suatu percobaan ada dua, yaitu  kejadian  sederhana 
+        dan kejadian  majemuk. Kejadian sederhana sudah dibahas pada bahasan sebelumnya. Pada 
+        bahasan ini kita akan membahas tentang peluang dua kejadian majemuk yang terdiri dari: 
+        peluang kejadian tidak saling lepas; peluang kejadian saling lepas; peluang kejadian bersyarat 
+        (dependent); dan peluang kejadian saling bebas.
+    </p>  
+<!-- Materi Peluang Kejadian Tidak Saling Lepas  -->
+    <article id="Tidak Saling Lepas">  
+        <ol type="1">
+            <li> <b>Peluang Kejadian Tidak Saling Lepas</b></li>
+            <p>Dua kejadian dikatakan tidak saling lepas jika dua atau lebih kejadian dapat terjadi bersamaan. Secara matematis dapat ditulis sebagai berikut:</p>
+            <p style="text-align: center;"> <b>P(A∪B) = P(A) + P(B) - P(A∩B)</b></p>
+            <p> <b>Contoh :</b> Sebuah kartu diambil secara acak dari satu set kartu bridge. Tentukan peluang yang terambil adalah kartu love atau kartu As. <br>
+            <b>Penyelesaian:</b><br>
+            Satu set kartu bridge terdiri 52 kartu yang berbeda, sehingga n(S) = 52
+            <ol type="a">
+                <li>
+                    Kejadian A menyatakan terambil kartu love, sehingga n(A) = 13.  
+                </li>
+                <li>
+                    Kejadian B menyatakan terambil kartu As, sehingga n(B) = 4.
+                </li> 
+            </ol>
+        <p>
+            Kejadian A dan B memiliki satu elemen yang sama, karena salah satu jenis kartu As  adalah love,  
+            maka  n(A∩B) = 1 sehingga: <br>
+            P(A∪B)= P(A) + P(B) – P(A∩B) <br>
+            P(A∪B) = 
+            <span style="display: inline-block; text-align: center; vertical-align: middle;">
+                <span style="display: block; border-bottom: 1px solid #000;">n(A)</span>
+                <span style="display: block; padding-top: 2px;">n(S)</span>
+            </span> + 
+            <span style="display: inline-block; text-align: center; vertical-align: middle;">
+                <span style="display: block; border-bottom: 1px solid #000;">n(B)</span>
+                <span style="display: block; padding-top: 2px;">n(S)</span>
+            </span> - 
+            <span style="display: inline-block; text-align: center; vertical-align: middle;">
+                 <span style="display: block; border-bottom: 1px solid #000;">n(A∩B)</span>
+                 <span style="display: block; padding-top: 2px;">n(S)</span>
+            </span> <br>
+            P(A∪B) = 
+            <span style="display: inline-block; text-align: center; vertical-align: middle;">
+                <span style="display: block; border-bottom: 1px solid #000;">13</span>
+                <span style="display: block; padding-top: 2px;">52</span>
+            </span> +
+            <span style="display: inline-block; text-align: center; vertical-align: middle;">
+                <span style="display: block; border-bottom: 1px solid #000;">4</span>
+                <span style="display: block; padding-top: 2px;">52</span>
+            </span> -
+            <span style="display: inline-block; text-align: center; vertical-align: middle;">
+                <span style="display: block; border-bottom: 1px solid #000;">1</span>
+                <span style="display: block; padding-top: 2px;">52</span>
+            </span> = 
+            <span style="display: inline-block; text-align: center; vertical-align: middle;">
+                <span style="display: block; border-bottom: 1px solid #000;">4</span>
+                <span style="display: block; padding-top: 2px;">13</span>
+            </span>
+        </p>
+
+<!-- Materi Peluang Kejadian Saling Lepas  -->
+    <article id="Saling Lepas">   
+            <li><b>Peluang Kejadian Saling Lepas</b></li>
+            <p>Dua atau lebih kejadian disebut saling lepas jika irisan dari dua kejadian tersebut merupakan himpunan kosong. 
+                Secara matematis dapat ditulis sebagai berikut:</p>
+            <p style="text-align: center;line-height: 0;"> <b>P(A∪B) = P(A) + P(B)</b></p>
+            <p> <b>Contoh :</b>Dua buah dadu dilambungkan secara bersamaan. Berapa peluang muncul angka berjumlah  5 atau 10? <br>
+            <b>Penyelesaian:</b><br>
+            Pada pelambungan dua buah dadu bersamaan, banyak hasil yang mungkin 36, sehingga n(S) = 36. <br>
+            <ol type="a">
+                <li>
+                    Kejadian A = muncul angka berjumlah 5, maka <br>
+                    A = {(1.4),(2.3),(4.1),(3,2)} ; n(A) = 4
+                </li>
+                <li>
+                    Kejadian B = muncul angka berjumlah 10, maka <br> 
+                    B = {(4.6),(5.5),(6.4)} dan n(B) = 3 
+                </li>
+            </ol>        
+        <p>
+        Kejadian A dan B tidak memiliki satu pun elemen 
+        yang sama, berarti A dan B saling lepas. Sehingga peluang gabungan A dan B adalah <br>
+        P(A∪B)= P(A) + P(B) <br>
+        P(A∪B)=
+        <span style="display: inline-block; text-align: center; vertical-align: middle;">
+            <span style="display: block; border-bottom: 1px solid #000;">n(A)</span>
+            <span style="display: block; padding-top: 2px;">n(S)</span>
+        </span> + 
+        <span style="display: inline-block; text-align: center; vertical-align: middle;">
+            <span style="display: block; border-bottom: 1px solid #000;">n(B)</span>
+            <span style="display: block; padding-top: 2px;">n(S)</span>
+        </span> =>
+        <span style="display: inline-block; text-align: center; vertical-align: middle;">
+            <span style="display: block; border-bottom: 1px solid #000;">4</span>
+            <span style="display: block; padding-top: 2px;">36</span>
+        </span> +
+        <span style="display: inline-block; text-align: center; vertical-align: middle;">
+            <span style="display: block; border-bottom: 1px solid #000;">3</span>
+            <span style="display: block; padding-top: 2px;">36</span>
+        </span> =
+        <span style="display: inline-block; text-align: center; vertical-align: middle;">
+            <span style="display: block; border-bottom: 1px solid #000;">7</span>
+            <span style="display: block; padding-top: 2px;">36</span>
+        </span>
+        </p>
+
+            
+<!-- Materi Peluang Kejadian Bersyarat-->
+    <article id="Bersyarat">    
+            <li><b>Peluang Kejadian Bersyarat <i>(Dependent)</i></b></li>
+            <p>Jika A dan B adalah dua buah kejadian yang dibentuk dari ruang sampel S. 
+                Maka peluang bersyarat dari B jika diberikan A didefinisikan sebagai berikut: </p>
+                <p style="text-align: center;">
+                <b>P(B l A)= 
+                    <span style="display: inline-block; text-align: center; vertical-align: middle;">
+                        <span style="display: block; border-bottom: 1px solid #000;">P(A∩B)</span>
+                        <span style="display: block; padding-top: 2px;">P(A)</span>
+                    </span>
+                </b>
+            </p>
+    
+            <p><b>Contoh : </b>Sebuah kotak berisi 6 bola merah dan 4 bola biru. Jika diambil 2 bola satu per
+                satu tanpa pengembalian, tentukan peluang bola yang terambil 
+                berturut-turut berwarna biru-merah adalah? <br>
+            <b>Penyelesaian:</b><br>
+            <ol type="a">
+                <li>
+                    Banyak bola sebelum pengambilan adalah 6 bola merah + 4 bola biru = 10 bola. 
+                    Pada pengambilan pertama terambil bola biru. Tersedia 4 bola biru dari 10 bola, 
+                    sehingga peluang terambil bola biru adalah 
+                    P(B)= <span style="display: inline-block; text-align: center; vertical-align: middle;">
+                            <span style="display: block; border-bottom: 1px solid #000;">4</span>
+                            <span style="display: block; padding-top: 2px;">10</span>
+                          </span> = 
+                          <span style="display: inline-block; text-align: center; vertical-align: middle;">
+                            <span style="display: block; border-bottom: 1px solid #000;">2</span>
+                            <span style="display: block; padding-top: 2px;">5</span>
+                          </span>
+                </li>
+                <li>
+                    Banyak bola sebelum pengambilan kedua adalah 6 bola merah + 3 bola biru = 9 bola. 
+                    Peluang terambil bola merah dengan syarat bola biru telah terambil pada pengambilan pertama, 
+                    ditulis P(M|B) adalah, 
+                    P(M|B)= <span style="display: inline-block; text-align: center; vertical-align: middle;">
+                                <span style="display: block; border-bottom: 1px solid #000;">6</span>
+                                <span style="display: block; padding-top: 2px;">9</span>
+                            </span> = 
+                            <span style="display: inline-block; text-align: center; vertical-align: middle;">
+                                <span style="display: block; border-bottom: 1px solid #000;">2</span>
+                                 <span style="display: block; padding-top: 2px;">3</span>
+                             </span>
+                </li>
+            </ol>        
+        <p>
+        Jadi, peluang terambil berturut-turut bola berwarna biru – merah adalah, <br>
+        P(B∩M) = P(B) x P(M│B)
+        P(B∩M) = 
+        <span style="display: inline-block; text-align: center; vertical-align: middle;">
+            <span style="display: block; border-bottom: 1px solid #000;">2</span>
+            <span style="display: block; padding-top: 2px;">5</span>
+        </span> X
+        <span style="display: inline-block; text-align: center; vertical-align: middle;">
+            <span style="display: block; border-bottom: 1px solid #000;">2</span>
+            <span style="display: block; padding-top: 2px;">3</span>
+        </span> =>
+        <span style="display: inline-block; text-align: center; vertical-align: middle;">
+            <span style="display: block; border-bottom: 1px solid #000;">4</span>
+            <span style="display: block; padding-top: 2px;">15</span>
+        </span> 
+
+<!-- Tabel Rumus Peluang Kejadian Bersyarat -->
+    <article id="Rumus">
+    <h3 style="text-align: center;">Rumus Peluang Kejadian Majemuk</h3>
+    <table>
+        <tr>
+            <th>Jenis</th>
+            <th>Rumus</th>
+        </tr>
+        <tr>
+            <td>Peluang Kejadian Tidak Saling Lepas</td>
+            <td>P(A∪B)=P(A)+P(B)-P(A∩B) </td>
+        </tr>
+        <tr>
+            <td>Peluang Kejadian Saling Lepas</td>
+            <td>P(A ∪ B) = P(A) + P(B)</td>
+        </tr>
+        <tr>
+            <td>Peluang Kejadian Bersyarat</td>
+            <td>P(B l A)= 
+                <span style="display: inline-block; text-align: center; vertical-align: middle;">
+                    <span style="display: block; border-bottom: 1px solid #000;">P(A∩B)</span>
+                    <span style="display: block; padding-top: 2px;">P(A)</span>
+                </span></td>
+        </tr>
+    </table>
+    
+
+
+<!--  Referensi  -->
+    <article id="referensi"></article>
+    <h3>Referensi</h3>
+    <ol>
+        <li><a href="https://www.bing.com/ck/a?!&&p=7605c58fb766926aJmltdHM9MTcxODMyMzIwMCZpZ3VpZD0yNGM1Y2NlYi0yYzIxLTY1MWMtMjE0YS1jMTZmMmRmNTY0NzUmaW5zaWQ9NTE5Mw&ptn=3&ver=2&hsh=3&fclid=24c5cceb-2c21-651c-214a-c16f2df56475&psq=Darwanto.%2c+%26+Dinata%2c+K%2c+B.+(2021).+Pengantar+Teori+Peluang.+UMKO+Publishing%3a+Lampung&u=a1aHR0cDovL3JlcG9zaXRvcnkudW1rby5hYy5pZC9pZC9lcHJpbnQvMjg2Lw&ntb=1">Pengantar Teori Peluang</a></li>
+        <li><a href="https://www.bing.com/ck/a?!&&p=4784b7f470e1c9fbJmltdHM9MTcxODMyMzIwMCZpZ3VpZD0yNGM1Y2NlYi0yYzIxLTY1MWMtMjE0YS1jMTZmMmRmNTY0NzUmaW5zaWQ9NTE5Mg&ptn=3&ver=2&hsh=3&fclid=24c5cceb-2c21-651c-214a-c16f2df56475&psq=Susanto%2c+D.%2c+dkk.+(2021).+Matematika+untuk+SMA%2fSMK+Kelas+X.+Pusat+Kurikulum+dan+Perbukuan+%3a+Jakarta&u=a1aHR0cHM6Ly9hbm5pYnVrdS5jb20vYnNlL21hdGVtYXRpa2EtdW50dWstc21hLXNtay1rZWxhcy14LTI3NjQ&ntb=1mat">Matematika untuk SMA/SMK Kelas X</a></li>
+    </ol>
+ 
+<!-- Copyright -->
+    <footer>
+        <b>Copyright &copy; 2024 yonatahutapea</b>
+    </footer>
+</body>
+</html>
